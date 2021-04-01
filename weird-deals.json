@@ -1,0 +1,39 @@
+{
+  "deals": [
+    {
+      "name": "A turkey hat",
+      "price": "$12.99",
+      "description": "While most people don't typically dress up for Thanksgiving, this charming turkey hat seems worth making an exception for.",
+      "feature": "a hat that looks good",
+      "image": "hat.jpg"
+    },
+    {
+      "name": "A bloody bath mat",
+      "price": "$12.96",
+      "description": "If you've ever dreamed of turning your bathroom into a scene from a horror movie, you're apparently not alone—and Amazon has the perfect accessory for you.",
+      "feature": "it can be used for creating a horror movie scene.",
+      "image": "mat.jpg"
+    },
+    {
+      "name": "A pigeon mask",
+      "price": "$27.48",
+      "description": "You can finally roam the neighborhood in peace disguised in this lifelike pigeon mask. Hey, you might even get thrown a couple bread crumbs from sympathetic passersby!",
+      "feature": "A mask that can look like you a pigeon",
+      "image": "mask.jpg"
+    },
+    {
+      "name": "Cocktail blood bags",
+      "price": "$9.99",
+      "description": "A perfect way to celebrate a nursing school graduation or a newfound interest in vampirism, these blood bags meant for cocktails are sure to liven up every party.",
+      "feature": "These can help in making doctor's party amazing",
+      "image": "cocktail.jpg"
+    },
+    {
+      "name": "Nothing",
+      "price": "$6.98",
+      "description": "What do you get for the person who has everything? Nothing—literally. But unlike traditional nothing, this one will cost you almost $7.",
+      "feature": "It can use some amount from your worth!",
+      "image": "nothing.jpg"
+    }
+  ]
+}
