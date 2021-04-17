@@ -36,5 +36,34 @@ request.onload = function() {
     body.appendChild(div); 
      
   }
-  
+}
+
+// Press Enter to toggle full screen
+document.addEventListener("keypress", function(e) {
+  if (e.keyCode === 13) {
+    toggleFullScreen();
+  }
+}, false);
+
+function toggleFullScreen() {
+  if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen();
+  } else {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    }
+  }
+}
+
+function setLocation() {
+	var latLng = new google.maps.LatLng(44.411487, -79.666953);
+	const map = new google.maps.Map(document.getElementById("map"), {
+	  zoom: 4,
+	  center: latLng,
+	});
+	const marker = new google.maps.Marker({
+	  position: latLng,
+	  title: 'Deals Store',
+	  map: map,
+	});
 }

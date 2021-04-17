@@ -16,10 +16,22 @@
 		body {
 		 background: cyan;
 		}
+		p {
+		color: red;
+		text-align: center;
+		}
+		#map {
+			width: 300px;
+			height: 300px;
+		}
 	</style>
 	<script src="script.js" async></script>
 </head>
 <body>
 	<h1>Weird Deals</h1>
+	<p>* Press enter to enter/exit to full screen mode</p>
+	<h3>Third Party API</h3>
+	<section id="map"></section>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxwU0YbvEt5MQOl73yMnHViokawDMEPOY&callback=setLocation" async ></script>
 </body>
 </html>
